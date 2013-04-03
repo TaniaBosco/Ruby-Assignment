@@ -1,6 +1,7 @@
 require 'rexml/document'
 require 'mysql'
 include REXML
+
 file1 = File.new("sitemap.xml")
 doc = Document.new(file1)
 #puts doc
